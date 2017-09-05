@@ -35,12 +35,12 @@ public class BaseTest {
         homePage = PageFactory.initElements(webDriver,HomePage.class);
     }
 
-    /*@AfterClass
+    @AfterClass
     public static void closeBrowser () {
         webDriver.close();
-    }*/
+    }
 
-    String readFromProperties(String key, String fileName){
+    static String readFromProperties(String key, String fileName){
         try{
             File file = new File(fileName);
             FileInputStream fileInput = new FileInputStream(file);

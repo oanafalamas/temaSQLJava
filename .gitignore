@@ -1,0 +1,17 @@
+*.class
+*.log
+*.iml
+ 
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*/target/**
+.classpath
+.project
+.settings/
+target/
+/target/**
+.idea/*
